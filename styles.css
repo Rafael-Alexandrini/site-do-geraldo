@@ -10,3 +10,11 @@ h1 {
 p em {
     font-variant: small-caps;
 }
+
+.grid-container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 40px;
+    grid-template-columns:  500px 300px 400px;
+}
+
